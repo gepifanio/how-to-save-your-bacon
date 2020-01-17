@@ -1,0 +1,18 @@
+{
+  "name": "how-to-save-your-bacon",
+  "version": "0.0.0",
+  "author": "Guilherme Oliveira Epifanio <gui.epifanio@gmail.com>",
+  "private": true,
+  "scripts": {
+    "build": "rimraf dist && npm run -s og-image && npm run -s deck",
+    "deck": "marp --no-stdin PITCHME.md -o dist/index.html && cpx \"assets/**/*\" dist/assets",
+    "now-build": "npm run -s deck",
+    "og-image": "marp PITCHME.md -o dist/og-image.jpg",
+    "start": "marp -ps ."
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^0.16.2",
+    "cpx": "^1.5.0",
+    "rimraf": "^3.0.0"
+  }
+}

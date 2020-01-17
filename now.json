@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "name": "how-to-save-your-bacon",
+  "builds": [{ "src": "package.json", "use": "@now/static-build" }]
+}
