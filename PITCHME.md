@@ -17,102 +17,70 @@ footer: ''
 
 <!-- backgroundColor: #123 -->
 <!-- color: white -->
-# Agenda
+# AGENDA
 
-## - Git basics
-## - Beyond the basics
-## - Rebase vs Merge vs Squash + story
-## - Stash is your friend + story
-## - Amend is your friend + story
+- ## Git basics
+- ## Beyond the basics
+- ## Rebase vs Merge vs Squash
+- ## Stash and Amend is your friend
+
+---
+<!-- header: git conceps -->
+
+# GIT CONCEPTS 
+
+* ## Distributed version control
+* ## Code track / history
+* ## Snapshot (Commit)
+* ## Revert back any time
+
+---
+<!-- header: git basics -->
+# GIT BASICS
+
+* ## git init
+* ## git add `file-name` or `.`
+* ## git status
+* ## git commit `-m "message"`
 
 ---
 <!-- header: git basics -->
 
-##### <!--fit--> git init
-
-Create an empty Git repository or reinitialize an existing one
-
----
-<!-- header: git basics -->
-
-##### <!--fit--> git clone "repo"
-
-Clone a repository into a new directory
+* ## git push
+* ## git fetch
+* ## git pull
+* ## git clone `repo-name`
 
 ---
-<!-- header: git basics -->
+<!-- header: beyond the basics -->
+# BEYOND THE BASICS
 
-##### <!--fit--> git fetch
-
-git fetch is the command that tells your local git to retrieve the latest meta-data info from the original (yet doesn't do any file transfering. It's more like just checking to see if there are any changes available). 
-
----
-<!-- header: git basics -->
-
-##### <!--fit--> git pull
-
-git pull on the other hand does that AND brings (copy) those changes from the remote repository.
+* ## git checkout `branch-name` / `-b new-branch-name`
+* ## git branch `branch-name` / `-a` / `-d`
+* ## git diff
+* ## git merge
+* ## git rebase
 
 ---
-<!-- header: git basics -->
 
-##### <!--fit--> git commit -m "message"
-
-Record changes to the repository
+# <!--fit--> Rebase x Merge/Squash
 
 ---
-<!-- header: git basics -->
-
-##### <!--fit--> git push
-
-Update remote refs along with associated objects
+![bg](https://jeffkreeftmeijer.com/git-rebase/git-rebase.png)
 
 ---
 <!-- header: beyond the basics -->
 
-##### <!--fit--> git checkout
+# <!--fit--> `git stash` and `amend` is your friend
 
-Switch branches or restore working tree files
-
----
-<!-- header: beyond the basics -->
-
-##### <!--fit--> git branch
-
-List, create, or delete branches
+* ## git stash list
+* ## git stash clear
+* ## git stash drop
+* ## git stash pop
+* ## git stash apply
+* ## git commit --amend --no-edit
 
 ---
-<!-- header: beyond the basics -->
 
-##### <!--fit--> git diff
-
-Show changes between commits, commit and working tree, etc
-
----
-<!-- header: beyond the basics -->
-
-##### <!--fit--> git merge
-
-Join two or more development histories together
-
----
-<!-- header: beyond the basics -->
-
-##### <!--fit--> git rebase
-
-Reapply commits on top of another base tip
-
----
-<!-- header: beyond the basics -->
-
-##### <!--fit--> Rebase vs Merge vs Squash + story
-
----
-<!-- header: beyond the basics -->
-
-##### <!--fit--> Stash is your friend + story
-
----
-<!-- header: beyond the basics -->
-
-##### <!--fit--> Amend is your friend + story
+# <!--fit--> `Thank you`
+# <!--fit--> Questions?
