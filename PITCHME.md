@@ -24,6 +24,8 @@ footer: ''
 - ## Rebase vs Merge vs Squash
 - ## Stash and Amend is your friend
 
+![bg right 60%](assets/agenda.png)
+
 ---
 <!-- header: git conceps -->
 
@@ -34,6 +36,8 @@ footer: ''
 * ## Snapshot (Commit)
 * ## Revert back any time
 
+![bg right 55%](assets/concepts.png)
+
 ---
 <!-- header: git basics -->
 # GIT BASICS
@@ -43,41 +47,45 @@ footer: ''
 * ## git status
 * ## git commit `-m "message"`
 
+![bg right 60%](assets/basics.jpg)
+
 ---
 <!-- header: git basics -->
 
 * ## git push
-* ## git fetch
 * ## git pull
 * ## git clone `repo-name`
+
+![bg right 60%](assets/basics.jpg)
 
 ---
 <!-- header: beyond the basics -->
 # BEYOND THE BASICS
 
-* ## git checkout `branch-name` / `-b new-branch-name`
-* ## git branch `branch-name` / `-a` / `-d`
+* ## git checkout `branch-name` / `-b new-branch`
+* ## git branch `branch-name` / `-d branch-name`    
 * ## git diff
-* ## git merge
-* ## git rebase
+* ## git merge "feature"
+* ## git rebase "feature"
+
+![bg right 75%](assets/merge-rebase.png)
 
 ---
 
 # <!--fit--> Rebase x Merge/Squash
 
 ---
-![bg](https://jeffkreeftmeijer.com/git-rebase/git-rebase.png)
+![bg 70%](assets/rebase-vs-merge.png)
 
 ---
 <!-- header: beyond the basics -->
 
 # <!--fit--> `git stash` and `amend` is your friend
 
-* ## git stash list
-* ## git stash clear
-* ## git stash drop
-* ## git stash pop
-* ## git stash apply
+* ## git stash / save "message"
+* ## git stash list (like git status)
+* ## git stash clear / drop "stash-id"
+* ## git stash pop / apply "stash-id"
 * ## git commit --amend --no-edit
 
 ---
