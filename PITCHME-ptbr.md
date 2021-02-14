@@ -1,7 +1,7 @@
 ---
 marp: true
-title: How to save your bacon
-description: Talk about git and how git can save your day!
+title: Como git pode salvar seu bacon!
+description: Palestra sobre git e como pode salvar seu dia!
 theme: Uncover
 paginate: true
 _paginate: false
@@ -11,7 +11,7 @@ footer: ''
 
 ![bg right 60%](https://icongr.am/octicons/mark-github.svg)
 
-# <!--fit--> How to save your bacon
+# <!--fit--> Como git pode salvar seu bacon!
 
 ---
 
@@ -19,18 +19,28 @@ footer: ''
 <!-- color: white -->
 # AGENDA
 
-- ## O que e GIT
-- ## Git basics
-- ## Beyond the basics
-- ## Rebase vs Merge vs Squash
-- ## Stash and Amend is your friend
+- ### O que e GIT
+- ### Conceitos
+- ### Comandos basicos
+- ### Além do básico
+- ### Rebase vs Merge vs Squash
+- ### Stash and Amend e o seu melhor amigo
 
 ![bg right 60%](assets/agenda.png)
 
 ---
-<!-- header: git conceps -->
+<!-- header: o que e git -->
 
-# GIT CONCEPTS 
+# O QUE E GIT
+
+O Git é um sistema open-source de controle de versão utilizado pela grande maioria dos desenvolvedores atualmente. Com ele podemos criar todo histórico de alterações no código do nosso projeto e facilmente voltar para qualquer ponto para saber como o código estava naquela data.
+
+Além disso, o Git nos ajuda muito a controlar o fluxo de novas funcionalidades entre vários desenvolvedores no mesmo projeto com ferramentas para análise e resolução de conflitos quando o mesmo arquivo é editado por mais de uma pessoa em funcionalidades diferentes.
+
+---
+<!-- header: git conceitos -->
+
+# CONCEITOS 
 
 * ## Distributed version control
 * ## Code track / history
@@ -40,13 +50,13 @@ footer: ''
 ![bg right 55%](assets/concepts.png)
 
 ---
-<!-- header: git basics -->
-# GIT BASICS
+<!-- header: comandos basicos -->
+# COMANDOS BASICOS
 
 * ## git init
-* ## git add `file-name` or `.`
+* ## git add `nome-do-arquivo` ou `.`
 * ## git status
-* ## git commit `-m "message"`
+* ## git commit `-m "mensagem de commit"`
 
 ![bg right 60%](assets/basics.jpg)
 
@@ -55,16 +65,16 @@ footer: ''
 
 * ## git push
 * ## git pull
-* ## git clone `repo-name`
+* ## git clone `nome do repositorio`
 
 ![bg right 60%](assets/basics.jpg)
 
 ---
-<!-- header: beyond the basics -->
-# BEYOND THE BASICS
+<!-- header: alem do basico -->
+# ALEM DO BASICO
 
-* ## git checkout `branch-name` / `-b new-branch`
-* ## git branch `branch-name` / `-d branch-name`    
+* ## git checkout `nome-da-ramificacao` / `-b nova-ramificacao`
+* ## git branch `nome-da-ramificacao` / `-d nome-da-ramificacao`    
 * ## git diff
 * ## git merge "feature"
 * ## git rebase "feature"
@@ -79,17 +89,16 @@ footer: ''
 ![bg 70%](assets/rebase-vs-merge.png)
 
 ---
-<!-- header: beyond the basics -->
+<!-- header: alem do basico -->
 
 # <!--fit--> `git stash` and `amend` is your friend
 
-* ## git stash / save "message"
+* ## git stash / save "mensagem"
 * ## git stash list (like git status)
 * ## git stash clear / drop "stash-id"
 * ## git stash pop / apply "stash-id"
 * ## git commit --amend --no-edit
 
 ---
-
-# <!--fit--> `Thank you`
-# <!--fit--> Questions?
+# <!--fit--> Muito Obrigado!!! 
+# <!--fit--> Perguntas?
