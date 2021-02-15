@@ -36,7 +36,7 @@ footer: ''
 * ## Snapshot (Commit)
 * ## Revert back any time
 
-![bg right 55%](assets/concepts.png)
+![bg right 88%](assets/dvc.png)
 
 ---
 <!-- header: git basics -->

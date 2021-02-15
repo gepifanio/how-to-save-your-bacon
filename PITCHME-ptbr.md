@@ -19,35 +19,36 @@ footer: ''
 <!-- color: white -->
 # AGENDA
 
-- ### O que e GIT
+- ### O que é GIT
 - ### Conceitos
 - ### Comandos basicos
 - ### Além do básico
 - ### Rebase vs Merge vs Squash
-- ### Stash and Amend e o seu melhor amigo
+- ### Stash and Amend é o seu melhor amigo
 
 ![bg right 60%](assets/agenda.png)
 
 ---
 <!-- header: o que e git -->
 
-# O QUE E GIT
+# O QUE É GIT
 
-O Git é um sistema open-source de controle de versão utilizado pela grande maioria dos desenvolvedores atualmente. Com ele podemos criar todo histórico de alterações no código do nosso projeto e facilmente voltar para qualquer ponto para saber como o código estava naquela data.
+![bg left 200%](assets/computer-system.jpeg)
+![bg left 200%](assets/software-dev.jpeg)
 
-Além disso, o Git nos ajuda muito a controlar o fluxo de novas funcionalidades entre vários desenvolvedores no mesmo projeto com ferramentas para análise e resolução de conflitos quando o mesmo arquivo é editado por mais de uma pessoa em funcionalidades diferentes.
-
+- Sistema de computador criado pelo criador do linux em 2005
+- Usado por desenvolvedores para poder salvar, rastrear, gerenciar codigo e facilitar o trabalho em equipe.
 ---
 <!-- header: git conceitos -->
 
 # CONCEITOS 
 
-* ## Distributed version control
-* ## Code track / history
+* ## Sistema distribuido de controle de versao
+* ## Rastreamento / historico
 * ## Snapshot (Commit)
-* ## Revert back any time
+* ## Reverta a qualquer momento
 
-![bg right 55%](assets/concepts.png)
+![bg right 88%](assets/dvc.png)
 
 ---
 <!-- header: comandos basicos -->
@@ -58,7 +59,7 @@ Além disso, o Git nos ajuda muito a controlar o fluxo de novas funcionalidades 
 * ## git status
 * ## git commit `-m "mensagem de commit"`
 
-![bg right 60%](assets/basics.jpg)
+![bg left 110%](assets/conceitos.png)
 
 ---
 <!-- header: git basics -->
@@ -67,17 +68,17 @@ Além disso, o Git nos ajuda muito a controlar o fluxo de novas funcionalidades 
 * ## git pull
 * ## git clone `nome do repositorio`
 
-![bg right 60%](assets/basics.jpg)
+![bg right 110%](assets/conceitos.png)
 
 ---
 <!-- header: alem do basico -->
 # ALEM DO BASICO
 
-* ## git checkout `nome-da-ramificacao` / `-b nova-ramificacao`
-* ## git branch `nome-da-ramificacao` / `-d nome-da-ramificacao`    
-* ## git diff
-* ## git merge "feature"
-* ## git rebase "feature"
+* ### git checkout `nome-da-ramificacao` / `-b nova-ramificacao`
+* ### git branch `nome-da-ramificacao` / `-d nome-da-ramificacao`    
+* ### git diff
+* ### git merge "feature"
+* ### git rebase "master"
 
 ![bg right 75%](assets/merge-rebase.png)
 
@@ -100,5 +101,7 @@ Além disso, o Git nos ajuda muito a controlar o fluxo de novas funcionalidades 
 * ## git commit --amend --no-edit
 
 ---
-# <!--fit--> Muito Obrigado!!! 
-# <!--fit--> Perguntas?
+# Muito Obrigado!!!
+
+Guilherme Epifanio
+
