@@ -32,5 +32,6 @@ PITCHME.md
 
 ## Deployment
 
-Every commit to master will trigger a deploy and will be live on: 
-[How to save your bacon live](https://how-to-save-your-bacon.now.sh/)
+Every commit to master will trigger a deploy and will be live on:
+
+[How to save your bacon live](https://how-to-save-your-bacon.now.sh/) / [pt-br version](https://how-to-save-your-bacon.now.sh/pt-br.html)
