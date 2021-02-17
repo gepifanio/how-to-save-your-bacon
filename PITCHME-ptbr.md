@@ -74,8 +74,8 @@ footer: ''
 <!-- header: alem do basico -->
 # MELHORES PRÁTICAS
 
-- ### git checkout `nome-da-ramificacao` / `-b nova-ramificacao`
 - ### git branch `nome-da-ramificacao` / `-d nome-da-ramificacao`    
+- ### git checkout `nome-da-ramificacao` / `-b nova-ramificacao`
 - ### git diff
 - ### git merge "feature"
 - ### git rebase "master"
@@ -83,7 +83,7 @@ footer: ''
 ![bg right 75%](assets/merge-rebase.png)
 
 ---
-![bg](assets/rebase-vs-merge.png)
+![bg 90%](assets/rebase-vs-merge.png)
 
 ---
 <!-- header: alem do basico -->
