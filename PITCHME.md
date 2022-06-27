@@ -90,5 +90,7 @@ footer: ''
 
 ---
 
-# <!--fit--> `Thank you`
-# <!--fit--> Questions?
+# `Thank you`
+# `Questions?`
+
+![bg right 75%](assets/qr-code.png)

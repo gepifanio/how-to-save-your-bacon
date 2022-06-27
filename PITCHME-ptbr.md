@@ -107,3 +107,4 @@ footer: ''
 
 Guilherme Epifanio
 
+![bg right 75%](assets/qr-code.png)
