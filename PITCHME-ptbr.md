@@ -59,7 +59,7 @@ footer: ''
 - ## git status
 - ## git commit `-m "mensagem de commit"`
 
-![bg left 110%](assets/conceitos.png)
+![bg right 90%](assets/staging-vs-commit.png)
 
 ---
 <!-- header: comandos inicias -->

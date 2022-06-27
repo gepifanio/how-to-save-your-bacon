@@ -47,7 +47,7 @@ footer: ''
 * ## git status
 * ## git commit `-m "message"`
 
-![bg right 60%](assets/basics.jpg)
+![bg right 90%](assets/staging-vs-commit.png)
 
 ---
 <!-- header: git basics -->
